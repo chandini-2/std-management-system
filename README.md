@@ -19,3 +19,8 @@ JSON
 
 ## How to Run
 python main.py
+
+## Program Output
+![Program Output](output.png)
+
+
