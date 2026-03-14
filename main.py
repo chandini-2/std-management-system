@@ -144,7 +144,11 @@ class StdMgr:
             print("5 Delete")
             print("6 Exit")
 
-            ch = input("Choice: ")
+            try:
+                ch = input("Choice: ")
+            except EOFError:
+                print("Program ended")
+                break
 
             if ch == "1":
                 self.add_std()
