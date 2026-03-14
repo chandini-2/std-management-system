@@ -18,5 +18,4 @@ Python
 JSON
 
 ## How to Run
-
 python main.py
